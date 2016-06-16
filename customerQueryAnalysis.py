@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 df_hesk_kb_articles = DataFrame
 
 #connect to MySql database on server
-print("Connecting to Mysql....")
+print("Connecting to Mysql Database....")
 
 '''
 Connect to the database
@@ -20,7 +20,7 @@ Connection = pymysql.connect(host='@dbhostname', user='@dbuser', password='@dbpa
 try:
                 
     #ExecuteQuery(Connection)
-    print("Connected to Mysql....")
+    print("Connected to Mysql Database....")
     
     #create cursur to query the database
     cursor = Connection.cursor()
