@@ -53,8 +53,6 @@ finally:
 #check the colums in the df_hesk_kb_articles
 df_hesk_kb_articles.columns
 
-# show subject against views in a line graph
-#df_hesk_kb_articles.plot(kind="bar", x="subject", y="views", figsize=(30, 10), fontsize=20)
 
 #Get only dates, query template subjects and number of times used (represented as views)
 articles_by_date = df_hesk_kb_articles[['dt','subject','views']]
