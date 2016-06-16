@@ -1,3 +1,6 @@
+##Bernard Adabankah
+## June 2016
+
 import pymysql
 from pandas import DataFrame
 import seaborn as sns
